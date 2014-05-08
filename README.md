@@ -3,7 +3,7 @@
 __luacolors__ is a collection of functions for common color conversions.
 
 Installation
-============
+------------
 
 The luacolors.lua file should be dropped into an existing project and required by it.
 
@@ -12,7 +12,7 @@ luacolors = require "luacolors"
 ````
 
 Function Reference
-==================
+------------------
 
 ###luacolors.sRGBtoXYZ(r, g, b)
 
@@ -47,7 +47,7 @@ Returns the RGB values for a given HSL.
 Returns the HSL values for a given RGB.
 
 Color reference
-===============
+---------------
 
 Any color included in http://en.wikipedia.org/wiki/CSS_colors .
 
@@ -56,8 +56,21 @@ Example:
 luacolors.maroon -- returns {127, 0, 0}
 ````
 
+Credits
+-------
+
+Several wikipedia pages:
+http://en.wikipedia.org/wiki/SRGB
+http://en.wikipedia.org/wiki/Lab_color_space
+http://en.wikipedia.org/wiki/CIE_1931_color_space
+http://en.wikipedia.org/wiki/HSL_and_HSV
+http://en.wikipedia.org/wiki/CSS_colors
+
+Other:
+http://www.easyrgb.com/index.php?X=CALC for validating
+
 License
-=======
+-------
 
 MIT LICENSE
 
